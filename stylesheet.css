@@ -8,3 +8,18 @@
 a {
   text-decoration: none;
 }
+.main {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 3rem 0 8rem;
+}
+
+.heading {
+  font-family: "Libre Baskerville", serif;
+  font-size: 96px;
+  color: rgba(0, 45, 48, 0.5);
+}
+
+.heading span {
+  color: #0077ff;
+}
