@@ -16,4 +16,8 @@ const arrayAkanFemale = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Am
                 // Parsing the date
                 date = new Date(dateInput);
                 console.log(date);
-    
+                // Getting century
+                CC = date.getFullYear();
+                CC = CC.toString().substr(0, 2);
+                console.log(CC);
+
