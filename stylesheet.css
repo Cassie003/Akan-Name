@@ -8,6 +8,16 @@
 a {
   text-decoration: none;
 }
+.header {
+  height: 5rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header img {
+  height: 1.5rem;
+  margin: 1.5rem;
+}
 .main {
   display: flex;
   justify-content: space-around;
@@ -22,6 +32,10 @@ a {
 
 .heading span {
   color: #0077ff;
+}
+.side{
+  width: 400px;
+  padding-top: 4rem;
 }
 .content {
   width: 80%;
